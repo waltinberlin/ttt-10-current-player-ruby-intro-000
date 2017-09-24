@@ -16,6 +16,10 @@ def current_player(board)
       countX+=1
     elsif position == "O"
       countO+=1
-      
+  end
+  if countX > countO
+    "O"
+  else
+    "X"
   end
 end
